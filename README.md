@@ -1,4 +1,4 @@
-笔记内容：
+*笔记内容：*
 
 ###[Core Data 框架](https://github.com/seedante/Note/wiki/Core-Data):
 
@@ -40,4 +40,4 @@ iOS 10 在转场协议中引入了`UIViewPropertyAnimator`的相关协议，不�
 1. [交互式动画(上)：iOS 10 以下的实现](http://www.jianshu.com/p/bbbdff8f01c5)
 2. [交互式动画(下)：UIViewPropertyAnimator in iOS 10](http://www.jianshu.com/p/6ac70183631e)
 
-这两篇文章也发布在 infoQ 网站：[上](http://www.infoq.com/cn/articles/ios-interactive-animation-p1?utm_campaign=rightbar_v2&utm_source=infoq&utm_medium=articles_link&utm_content=link_text)和[下](http://www.infoq.com/cn/articles/ios-interactive-animation-p2)。
+这两篇文章也发布在 InfoQ 网站：[上](http://www.infoq.com/cn/articles/ios-interactive-animation-p1?utm_campaign=rightbar_v2&utm_source=infoq&utm_medium=articles_link&utm_content=link_text)和[下](http://www.infoq.com/cn/articles/ios-interactive-animation-p2)。
