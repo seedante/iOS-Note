@@ -1,23 +1,23 @@
 *笔记内容：*
 
-###[Core Data 框架](https://github.com/seedante/Note/wiki/Core-Data):
+### [Core Data 框架](https://github.com/seedante/Note/wiki/Core-Data):
 
 Core Data 非常复杂，笔记目前总结了以下内容: Stack, Data Type, Relationship。
 
-###[Photos 框架](https://github.com/seedante/iOS-Note/wiki/Photos)
+### [Photos 框架](https://github.com/seedante/iOS-Note/wiki/Photos)
 
 介绍了常用 API 和一些坑。
 
-###[iOS 视图控制器转场(动画)详解](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)
+### [iOS 视图控制器转场(动画)详解](https://github.com/seedante/iOS-Note/wiki/ViewController-Transition)
 
 详尽地解释了全部转场机制，近期也更新了 iOS 10 中新引入的 UIViewPropertyAnimator 部分，同时该类也可用于实现交互动画。
 该文也发布在唐巧前辈的「iOSDevTips」公众号。
 
-###[自定义容器控制器转场](https://github.com/seedante/iOS-Note/wiki/Custom-Container-View-Controller-Transition)
+### [自定义容器控制器转场](https://github.com/seedante/iOS-Note/wiki/Custom-Container-View-Controller-Transition)
 
 iOS 本身并不直接支持自定义容器控制器的转场，我们可以自己添加协议来实现。这个是「转场动画详解」的一部分，由于原文部分太长了，便将这个剥离出来单独成章。
 
-###[视图性能优化：离屏渲染](https://github.com/seedante/iOS-Note/wiki/Mastering-Offscreen-Render)
+### [视图性能优化：离屏渲染](https://github.com/seedante/iOS-Note/wiki/Mastering-Offscreen-Render)
 
 objccn.io 的译者将 Offscreen Render 译作「离屏渲染」真的是很传神，关于离屏渲染的概述可参考 objccn.io 的译文:[绘制像素到屏幕上](https://objccn.io/issue-3-1/)，通俗易懂。在已公开的官方资料里，最早可追溯到2011年的 WWDC，此后几年的 WWDC 有关视图方面的 session，大多都介绍了如何避免离屏渲染来提升视图性能以及使用工具来检测离屏渲染。
 
@@ -29,7 +29,7 @@ objccn.io 的译者将 Offscreen Render 译作「离屏渲染」真的是很传�
 本文针对各种效果的优化都做了对比测试并提供了 Demo。本文也发布在唐巧前辈的「iOSDevTips」公众号。
 
 
-###[交互式动画](https://github.com/seedante/iOS-Note/wiki/Interactive-Animations)
+### [交互式动画](https://github.com/seedante/iOS-Note/wiki/Interactive-Animations)
 
 [ WWDC 2016 Session 216: Advances in UIKit Animations and Transitions ](https://developer.apple.com/videos/play/wwdc2016/216/)介绍了一个非常有意思的类`UIViewPropertyAnimator`，该类让动画与交互无缝连接。
 该类有个很好的使用场景：转场动画的交互。之前转场动画的交互有很大的局限：无法随意在动画与交互之间切换，`UIViewPropertyAnimator`消除了这个局限。
